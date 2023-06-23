@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav>
+            <h1>Network</h1>
+        </nav>
+        <main>
+            <h2>Your Feed</h2>
+            <div class="parent">
+                <div class="topleftrow top-text">
+                    <img src="./Images/likinglikesprofileimage.png" alt="profileimage" class="profileimage">
+                    <div>
+                        <a href="url">Add an Avatar</a>
+                    </div>
+                    <p>James Doe</p>
+                </div>
+                <div class="verticalboxes">
+                    <div class="toprightbox">
+                        <ul>
+                            <li>Neil M</li>
+                            <li id="vote1">9</li>
+                            <p class="space">like(s)</p>
+                            <li><button onclick="voteUp(1)" id="likebutton">Like</button></li>
+                        </ul>
+                        <p class="boxtexts">I just setup this new discord bot, let me know what you think. <a
+                                href="link">link</a></p>
+                    </div>
+                    <div class=middlerightbox>
+                        <ul>
+                            <li>Nichole K</li>
+                            <li id="vote2">12</li>
+                            <p id="less">like(s)</p>
+                            <li><button onclick="voteUp(2)" id="likebutton">Like</button></li>
+                        </ul>
+                        <p class="boxtexts">I just finished my <a href="link"> next comic,</a> check it out.</p>
+                    </div>
+                    <div class=bottomrightbox>
+                        <ul>
+                            <li>Jim R</li>
+                            <li id="vote3">9</li>
+                            <p class="space">like(s)</p>
+                            <li><button onclick="voteUp(3)" id="likebutton">Like</button></li>
+                        </ul>
+                        <p class="boxtexts">I can't stop listening to the <a href="link">new album.</a> Who else is
+                            liking it?</p>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
